@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+}
+
+button {
+  background-color: #e7eff9;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 16px;
+  text-align: center;
+  border-radius: 5px;
+}
+button:hover {
+  background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+}
+
+form {
+  background-color: #fff;
+  padding: 20px 60px;
+  border-radius: 10px;
+
+  font-family: sans-serif;
+}
+h1 {
+  color: #6782b4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: cetner;
+}
